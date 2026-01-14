@@ -723,6 +723,11 @@ void Message_SetTextColor(MessageContext* msgCtx, u16 colorParameter) {
         case TEXT_COLOR_BLACK:
             msgCtx->textColorR = msgCtx->textColorG = msgCtx->textColorB = 0;
             break;
+        case TEXT_COLOR_BROWN:
+            msgCtx->textColorR = 100;
+            msgCtx->textColorG = 50;
+            msgCtx->textColorB = 0;
+            break;
         case TEXT_COLOR_DEFAULT:
         default:
             if (msgCtx->textBoxType == TEXTBOX_TYPE_NONE_NO_SHADOW) {

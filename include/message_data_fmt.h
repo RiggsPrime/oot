@@ -119,7 +119,8 @@ typedef enum TextColor {
     TEXT_COLOR_LIGHTBLUE,
     TEXT_COLOR_PURPLE,
     TEXT_COLOR_YELLOW,
-    TEXT_COLOR_BLACK
+    TEXT_COLOR_BLACK,
+    TEXT_COLOR_BROWN
 } TextColor;
 
 /*
