@@ -265,7 +265,6 @@ static MapSelectEntry sMapSelectEntries[] = {
     // Rupees & Cow Grotto
     { "114:" T(GFXP_HIRAGANA "ｶｸｼﾄﾋﾞｺﾐｱﾅ 13", "Hidden Dive Hole 13"), MapSelect_LoadGame, ENTR_GROTTOS_13 },
     { "115:" T(GFXP_KATAKANA "ﾊｲﾗﾙ ﾃﾞﾓ", "Hyrule Cutscenes"), MapSelect_LoadGame, ENTR_CUTSCENE_MAP_0 },
-    { "XXX:" GFXP_KATAKANA "My scene", MapSelect_LoadGame, ENTR_NEWSCENE_0 }, // custom newscene for testing
 #if DEBUG_FEATURES
     { "116:" T(GFXP_HIRAGANA "ﾍﾞｯｼﾂ (ﾀｶﾗﾊﾞｺ" GFXP_KATAKANA "ﾜｰﾌﾟ)", "Special Room (Treasure Chest Warp)"),
       MapSelect_LoadGame, ENTR_BESITU_0 },
@@ -281,6 +280,8 @@ static MapSelectEntry sMapSelectEntries[] = {
     { "124:depth" T(GFXP_KATAKANA "ﾃｽﾄ", "Test"), MapSelect_LoadGame, ENTR_DEPTH_TEST_0 },
     { "125:" T(GFXP_KATAKANA "ﾊｲﾗﾙ" GFXP_HIRAGANA "ﾆﾜ" GFXP_KATAKANA "ｹﾞｰﾑ2", "Hyrule Garden Game 2"),
       MapSelect_LoadGame, ENTR_HAIRAL_NIWA2_0 },
+    { "XXX:" GFXP_KATAKANA "My scene", MapSelect_LoadGame, ENTR_NEWSCENE_0 }, // custom newscene for testing
+    { "XXX:" GFXP_KATAKANA "Minidungeon", MapSelect_LoadGame, ENTR_MINIDUNGEON_0 }, // custom minidungeon scene for testingma
 #endif
     { "title", (void*)MapSelect_LoadTitle, 0 },
 #if PLATFORM_N64
